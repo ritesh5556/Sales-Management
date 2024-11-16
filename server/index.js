@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "*",
+		origin: "https://sales-management-one.vercel.app",
 		credentials: true,
 	})
 );
